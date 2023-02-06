@@ -25,16 +25,16 @@ Available themes:
 ## Preview
 
 Green theme:
-![preview](preview-green.webp)
+![preview](previews/green.webp)
 
 Red theme:
-![preview](preview-red.webp)
+![preview](previews/red.webp)
 
 Light theme:
-![preview](preview-light.webp)
+![preview](previews/light.webp)
 
 Dark theme:
-![preview](preview-dark.webp)
+![preview](previews/dark.webp)
 
 
 ## License
