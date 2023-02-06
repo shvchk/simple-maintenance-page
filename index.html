@@ -5,13 +5,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css">
     <style>
       body {
-        font: 1.25rem system-ui, -apple-system, sans-serif;
+        font: 1.5rem system-ui, -apple-system, sans-serif;
         text-align: center;
         padding-top: 8rem;
-      }
-
-      h1 {
-        font-size: 3rem;
       }
 
       .spin {
@@ -24,6 +20,7 @@
         }
       }
 
+      /* Themes */
       body.theme-green {
         background: #1db954;
         color: #fff;
@@ -52,6 +49,6 @@
   <body class="theme-green">
     <img class="spin" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAACfFBMVEUAAAD/+fX+/////fz+//7//f3//v///v7///////7//////Pv///////7/////9/f/9/X/9///1t7///3//v///v7+/////Pz/+vzorf//9fX//fz//////P3+////v7D+/////f3/+ff+//D/7fX+//3//P3//f3//////////v/+//v+////1tP/qLD+//v+/f///////Pz//v/////+/v///fz6/P///v/+/v//9fX//v////7/+fj////o//D/9fH//////v//5d7+//z//////v3/+/v/+/v/4t7////o//D///////7//P3//v//8+//+fv/////+/r//Pz/+/r6/P/+////+Pf8//3+//7+/v//8vD9//7/+/r7+//4//D//fz//v7///7/7er/+Pjo//D+/v////////7o//D//v7///7++P//9vX/+/v8//r////9//v/////7ez///79//7/+vn//Pv/////8/X////////////9/v//1sf/+/v+///7+/////7//v3//P3////+//79//7//f7//v3///7//f3/+fn//Pz//f//+vv/9PX//////////Pz///7/+fj+/v//+/r//Pv+//7///7//Pv/+vn///7/7er///7/+vj+/v//+/r/5+r//P39//7+//7+/v/+///4/v/+/////v/+/////v3//v///////Pn+//7/+/r/9/j//f/+//7/////8vX+/v///P3/7e3//v3//Pz/////+/r/+/v/+fr///79/f/+/v///f7/9vf/9vX+///+/v///vv//v//////5eb+////+fn//v/+//////7/+voqo9PaAAAA1HRSTlMAFkZvlrzT3u75//Tr1J56ThYLTpH/2JtOA0P09aZEC2nebwsLc+n/yptPLiIWCxcuyP9x4OOQDpJRIbH2pkMBQ/e0IVOHhVn/FvgG6urIvywszMjp6RxohSbZLzckvA0Q06azFpsEoMCnA7GRDFneGu0YezeySYV6ySxlp2QxC7HNGsj/Q+O2JZD0OJtD9HyxTt6d3vRZwabTXenIsVos1k5fNyyFR1vDZxCV9LV61NZDoJBkTn2/N38hIdO84W+mkLw8XelvN6tQLIWqIXSQk4pv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">
     <h1>Sorry, we're down for maintenance</h1>
-    <h2>We'll be back shortly</h2>
+    <h3>We'll be back shortly</h2>
   </body>
 </html>
